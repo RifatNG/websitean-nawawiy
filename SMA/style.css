@@ -70,6 +70,29 @@
   padding: 8px 0px;
 }
 
+.text-success {
+  margin-top: 0;
+  background-color: rgb(250, 250, 250);
+  color: green;
+  text-align: center;
+  padding: 0px 0px;
+  font-size: large;
+}
+
 .carousel-inner {
   height: 25%;
+}
+
+.text-pengumuman a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(241, 241, 241);
+  padding: 3px 7px;
+}
+
+.text-pengumuman a:hover {
+  background-color: rgb(73, 73, 73);
+  color: white;
+  transition: all 0.1s ease-in-out;
+  padding: 4px 8px;
 }
